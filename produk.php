@@ -222,7 +222,7 @@
 
                         <script>
                             document.addEventListener('DOMContentLoaded', function() {
-                                fetch('http://localhost/backend-penjualan/GetProdukAPIWeb.php')
+                                fetch('http://localhost/backend-penjualan/ProdukAPI.php')
                                     .then(response => response.json())
                                     .then(data => {
                                         console.log('Data produk yang diterima dari API:', data); // Tampilkan data di konsol
@@ -281,7 +281,7 @@
                                             deleteButton.innerHTML = '<i class="fas fa-trash"></i> Hapus';
                                             deleteButton.onclick = function() {
                                                 if (confirm('Anda yakin ingin menghapus produk ini?')) {
-                                                    fetch(`http://localhost/backend-penjualan/GetProdukAPIWeb.php?id=${produk.id_produk}`, {
+                                                    fetch(`http://localhost/backend-penjualan/ProdukAPI.php?id=${produk.id_produk}`, {
                                                             method: 'DELETE'
                                                         })
                                                         .then(response => response.json())
