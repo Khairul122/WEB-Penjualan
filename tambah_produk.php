@@ -201,10 +201,7 @@
                             <label for="deskripsi_produk">Deskripsi Produk</label>
                             <textarea class="form-control" id="deskripsi_produk" name="deskripsi_produk" rows="3" required></textarea>
                         </div>
-                        <div class="form-group">
-                            <label for="stok_produk">Stok Produk</label>
-                            <input type="number" class="form-control" id="stok_produk" name="stok_produk" required>
-                        </div>
+                       
                         <div class="form-group">
                             <label for="id_kategori">Kategori Produk</label>
                             <select class="form-control" id="id_kategori" name="id_kategori" required>
@@ -251,7 +248,6 @@
             formData.append('merk_produk', document.getElementById('merk_produk').value);
             formData.append('harga_produk', document.getElementById('harga_produk').value);
             formData.append('deskripsi_produk', document.getElementById('deskripsi_produk').value);
-            formData.append('stok_produk', document.getElementById('stok_produk').value);
             formData.append('id_kategori', document.getElementById('id_kategori').value);
 
             fetch('http://localhost/backend-penjualan/ProdukAPI.php', {
@@ -275,6 +271,7 @@
         });
     });
 </script>
+
 
 </body>
 

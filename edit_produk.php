@@ -20,25 +20,24 @@
 
 <body id="page-top">
     <div id="wrapper">
-        <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+    <ul class="navbar-nav bg-light text-dark sidebar sidebar-dark accordion" id="accordionSidebar">
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
-                <img src="img/logo.png" alt="Sign Up" style="width: 60px">
+                <img src="img/logo.png" alt="Sign Up" style="width: 110px">
             </a>
-
             <hr class="sidebar-divider my-0">
             <li class="nav-item active">
                 <a class="nav-link" href="home.php">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
-                    <span>Dashboard</span></a>
+                    <span class="text-dark">Dashboard</span></a>
                 <a class="nav-link" href="produk.php">
                     <i class="fas fa-fw fa-box"></i>
-                    <span>Produk</span></a>
+                    <span class="text-dark">Produk</span></a>
                 <a class="nav-link" href="user.php">
                     <i class="fas fa-fw fa-user"></i>
-                    <span>User</span></a>
+                    <span class="text-dark">User</span></a>
                 <a class="nav-link" href="penjualan.php">
                     <i class="fas fa-fw fa-book"></i>
-                    <span>Penjualan</span></a>
+                    <span class="text-dark">Penjualan</span></a>
             </li>
             <hr class="sidebar-divider d-none d-md-block">
             <div class="text-center d-none d-md-inline">
@@ -113,10 +112,10 @@
                                             <input type="text" class="form-control" id="nama_produk" name="nama_produk" required>
                                         </div>
                                         <div class="form-group">
-                                          
+
                                             <input type="file" class="form-control d-none" id="gambar_produk" name="gambar_produk" readonly>
                                             <img id="gambar_produk_preview" src="" alt="Gambar Produk" style="max-width: 100px; margin-top: 10px;">
-                                          
+
                                         </div>
                                         <div class="form-group">
                                             <label for="merk_produk">Merk Produk</label>

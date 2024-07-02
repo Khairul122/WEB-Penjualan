@@ -185,7 +185,7 @@
                                                     <th>Kategori</th>
                                                     <th>Harga</th>
                                                     <th>Deskripsi</th>
-                                                    <th>Stok</th>
+                                                  
                                                     <th>Aksi</th>
                                                 </tr>
                                             </thead>
@@ -261,10 +261,6 @@
                                             let cellDeskripsi = document.createElement('td');
                                             cellDeskripsi.textContent = produk.deskripsi_produk;
                                             row.appendChild(cellDeskripsi);
-
-                                            let cellStok = document.createElement('td');
-                                            cellStok.textContent = produk.stok_produk;
-                                            row.appendChild(cellStok);
 
                                             let cellAksi = document.createElement('td');
 

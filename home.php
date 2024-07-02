@@ -182,16 +182,14 @@
 
                 <!-- Begin Page Content -->
                 <div class="container-fluid">
-                    <h1 class="h3 mb-4 text-gray-800">Daftar Produk</h1>
+                   
                     <div class="card shadow mb-4">
                         <div class="card-body">
-<<<<<<< HEAD
-                            <h2 class="text-center">Grafik Penjualan</h2>
-=======
-                        <div class="text-center">
-                        <canvas id="salesChart" width="100" height="100"></canvas>
-                    </div>
->>>>>>> 7eb50a8f0723e684306ad4c46ff4e03927d0ea3d
+                            <h2 class="text-center">Admin Panel <br> Web Penjualan Skincare</h2>
+                           <center>
+                           <img src="img/logo.png" alt="Sign Up" style="width: 20%">
+                           </center>
+                            
                         </div>
                     </div>
                 </div>
