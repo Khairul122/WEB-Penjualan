@@ -18,6 +18,14 @@
     <link href="css/sb-admin-2.min.css" rel="stylesheet">
 </head>
 
+<style>
+    .btn-primary {
+    background-color: #A52A2A; /* Brown color */
+    border-color: #A52A2A; /* Brown color */
+}
+
+</style>
+
 <body id="page-top">
     <div id="wrapper">
     <ul class="navbar-nav bg-light text-dark sidebar sidebar-dark accordion" id="accordionSidebar">
